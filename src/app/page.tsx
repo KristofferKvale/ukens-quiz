@@ -17,14 +17,14 @@ export default function Home() {
       </div>
       <div className='col-start-3 grid grid-cols-3 pb-8'>
         <a>
-          <p className='text-4xl text-slate-500 cursor-not-allowed'>{'<'}</p>
+          <p className='hidden text-4xl text-slate-500 cursor-not-allowed'>{'<'}</p>
         </a>
         <div>
           <p className='text-center cursor-default'>{year}</p>
           <p className='text-center cursor-default'>{week}</p>
         </div>
         <a>
-          <p className='text-4xl text-right text-slate-500 cursor-not-allowed'>
+          <p className='hidden text-4xl text-right text-slate-500 cursor-not-allowed'>
             {'>'}
           </p>
         </a>
