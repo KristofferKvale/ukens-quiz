@@ -2,7 +2,7 @@ import { Questions } from './questions'
 import questions from './questions.json'
 
 export default function Home() {
-  const yearWeek = '2023-33'
+  const yearWeek = '2023-39'
 
   const split = yearWeek.split('-')
   const year = split[0]
